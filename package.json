@@ -1,0 +1,29 @@
+{
+  "name": "kickoff",
+  "version": "0.1.0",
+  "description": "a cluster for koa applications",
+  "main": "index.js",
+  "bin": {
+    "kickoff": "bin/kickoff"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mndvns/kickoff.git"
+  },
+  "keywords": [
+    "cluster",
+    "koa"
+  ],
+  "author": "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mndvns/kickoff/issues"
+  },
+  "homepage": "https://github.com/mndvns/kickoff#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
